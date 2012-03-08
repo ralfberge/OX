@@ -7,6 +7,7 @@
 //
 
 #import "OXViewController.h"
+#import "MapViewAnnotation.h"
 
 @implementation OXViewController
 @synthesize mapView;
@@ -21,13 +22,36 @@
 
 #pragma mark - View lifecycle
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+
+
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+ // Set some coordinates for our position (Buckingham Palace!)
+ CLLocationCoordinate2D location;
+ location.latitude = (double) 51.501468;
+ location.longitude = (double) -0.141596;
+ 
+ // Add the annotation to our map view
+ MapViewAnnotation *newAnnotation = [[MapViewAnnotation alloc] initWithTitle:@"Buckingham Palace" andCoordinate:location];
+ [self.mapView addAnnotation:newAnnotation];
+ [newAnnotation release]; 
+    
+
+    
 }
-*/
+
+
+- (void)mapView:(MKMapView *)mv didAddAnnotationViews:(NSArray *)views
+{
+	MKAnnotationView *annotationView = [views objectAtIndex:0];
+	id <MKAnnotation> mp = [annotationView annotation];
+	MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance([mp coordinate], 1500, 1500);
+	[mv setRegion:region animated:YES];
+	[mv selectAnnotation:mp animated:YES];
+}
+
+
+
 
 - (void)viewDidUnload
 {

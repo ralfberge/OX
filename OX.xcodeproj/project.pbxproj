@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D71BABCB1508EACC0050AE81 /* MapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D71BABCA1508EACC0050AE81 /* MapViewAnnotation.m */; };
 		D76429911508E7CA004F1AE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76429901508E7CA004F1AE3 /* UIKit.framework */; };
 		D76429931508E7CA004F1AE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76429921508E7CA004F1AE3 /* Foundation.framework */; };
 		D76429951508E7CA004F1AE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76429941508E7CA004F1AE3 /* CoreGraphics.framework */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D71BABC91508EACC0050AE81 /* MapViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewAnnotation.h; path = ../MapViewAnnotation.h; sourceTree = "<group>"; };
+		D71BABCA1508EACC0050AE81 /* MapViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewAnnotation.m; path = ../MapViewAnnotation.m; sourceTree = "<group>"; };
 		D764298C1508E7CA004F1AE3 /* OX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76429901508E7CA004F1AE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D76429921508E7CA004F1AE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,6 +90,8 @@
 		D76429961508E7CA004F1AE3 /* OX */ = {
 			isa = PBXGroup;
 			children = (
+				D71BABC91508EACC0050AE81 /* MapViewAnnotation.h */,
+				D71BABCA1508EACC0050AE81 /* MapViewAnnotation.m */,
 				D764299F1508E7CA004F1AE3 /* OXAppDelegate.h */,
 				D76429A01508E7CA004F1AE3 /* OXAppDelegate.m */,
 				D76429A21508E7CA004F1AE3 /* MainWindow.xib */,
@@ -172,6 +177,7 @@
 				D764299D1508E7CA004F1AE3 /* main.m in Sources */,
 				D76429A11508E7CA004F1AE3 /* OXAppDelegate.m in Sources */,
 				D76429A71508E7CA004F1AE3 /* OXViewController.m in Sources */,
+				D71BABCB1508EACC0050AE81 /* MapViewAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +297,7 @@
 				D76429AF1508E7CB004F1AE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
