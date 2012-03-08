@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface OXViewController : UIViewController
+@interface OXViewController : UIViewController {
+    MKMapView *mapView;
+}
+
+@property (nonatomic, retain) IBOutlet MKMapView *mapView;
 
 @end

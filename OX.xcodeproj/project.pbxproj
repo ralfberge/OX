@@ -16,6 +16,8 @@
 		D76429A41508E7CA004F1AE3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D76429A21508E7CA004F1AE3 /* MainWindow.xib */; };
 		D76429A71508E7CA004F1AE3 /* OXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76429A61508E7CA004F1AE3 /* OXViewController.m */; };
 		D76429AA1508E7CB004F1AE3 /* OXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D76429A81508E7CB004F1AE3 /* OXViewController.xib */; };
+		D76429B21508E895004F1AE3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76429B01508E895004F1AE3 /* CoreLocation.framework */; };
+		D76429B31508E895004F1AE3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76429B11508E895004F1AE3 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +25,18 @@
 		D76429901508E7CA004F1AE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D76429921508E7CA004F1AE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D76429941508E7CA004F1AE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D76429981508E7CA004F1AE3 /* OX-Info.plist */ = {isa = PBXFileReference; path = "OX-Info.plist"; sourceTree = "<group>"; };
+		D76429981508E7CA004F1AE3 /* OX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OX-Info.plist"; sourceTree = "<group>"; };
 		D764299A1508E7CA004F1AE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D764299C1508E7CA004F1AE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D764299E1508E7CA004F1AE3 /* OX-Prefix.pch */ = {isa = PBXFileReference; path = "OX-Prefix.pch"; sourceTree = "<group>"; };
-		D764299F1508E7CA004F1AE3 /* OXAppDelegate.h */ = {isa = PBXFileReference; path = OXAppDelegate.h; sourceTree = "<group>"; };
+		D764299E1508E7CA004F1AE3 /* OX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OX-Prefix.pch"; sourceTree = "<group>"; };
+		D764299F1508E7CA004F1AE3 /* OXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OXAppDelegate.h; sourceTree = "<group>"; };
 		D76429A01508E7CA004F1AE3 /* OXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OXAppDelegate.m; sourceTree = "<group>"; };
 		D76429A31508E7CA004F1AE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		D76429A51508E7CA004F1AE3 /* OXViewController.h */ = {isa = PBXFileReference; path = OXViewController.h; sourceTree = "<group>"; };
+		D76429A51508E7CA004F1AE3 /* OXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OXViewController.h; sourceTree = "<group>"; };
 		D76429A61508E7CA004F1AE3 /* OXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OXViewController.m; sourceTree = "<group>"; };
 		D76429A91508E7CB004F1AE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OXViewController.xib; sourceTree = "<group>"; };
+		D76429B01508E895004F1AE3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D76429B11508E895004F1AE3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D76429B21508E895004F1AE3 /* CoreLocation.framework in Frameworks */,
+				D76429B31508E895004F1AE3 /* MapKit.framework in Frameworks */,
 				D76429911508E7CA004F1AE3 /* UIKit.framework in Frameworks */,
 				D76429931508E7CA004F1AE3 /* Foundation.framework in Frameworks */,
 				D76429951508E7CA004F1AE3 /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +75,8 @@
 		D764298F1508E7CA004F1AE3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D76429B01508E895004F1AE3 /* CoreLocation.framework */,
+				D76429B11508E895004F1AE3 /* MapKit.framework */,
 				D76429901508E7CA004F1AE3 /* UIKit.framework */,
 				D76429921508E7CA004F1AE3 /* Foundation.framework */,
 				D76429941508E7CA004F1AE3 /* CoreGraphics.framework */,
