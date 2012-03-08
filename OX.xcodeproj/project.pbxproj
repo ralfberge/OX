@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D76429911508E7CA004F1AE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76429901508E7CA004F1AE3 /* UIKit.framework */; };
+		D76429931508E7CA004F1AE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76429921508E7CA004F1AE3 /* Foundation.framework */; };
+		D76429951508E7CA004F1AE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76429941508E7CA004F1AE3 /* CoreGraphics.framework */; };
+		D764299B1508E7CA004F1AE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D76429991508E7CA004F1AE3 /* InfoPlist.strings */; };
+		D764299D1508E7CA004F1AE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D764299C1508E7CA004F1AE3 /* main.m */; };
+		D76429A11508E7CA004F1AE3 /* OXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D76429A01508E7CA004F1AE3 /* OXAppDelegate.m */; };
+		D76429A41508E7CA004F1AE3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D76429A21508E7CA004F1AE3 /* MainWindow.xib */; };
+		D76429A71508E7CA004F1AE3 /* OXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76429A61508E7CA004F1AE3 /* OXViewController.m */; };
+		D76429AA1508E7CB004F1AE3 /* OXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D76429A81508E7CB004F1AE3 /* OXViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D764298C1508E7CA004F1AE3 /* OX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76429901508E7CA004F1AE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D76429921508E7CA004F1AE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D76429941508E7CA004F1AE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D76429981508E7CA004F1AE3 /* OX-Info.plist */ = {isa = PBXFileReference; path = "OX-Info.plist"; sourceTree = "<group>"; };
+		D764299A1508E7CA004F1AE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D764299C1508E7CA004F1AE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D764299E1508E7CA004F1AE3 /* OX-Prefix.pch */ = {isa = PBXFileReference; path = "OX-Prefix.pch"; sourceTree = "<group>"; };
+		D764299F1508E7CA004F1AE3 /* OXAppDelegate.h */ = {isa = PBXFileReference; path = OXAppDelegate.h; sourceTree = "<group>"; };
+		D76429A01508E7CA004F1AE3 /* OXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OXAppDelegate.m; sourceTree = "<group>"; };
+		D76429A31508E7CA004F1AE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D76429A51508E7CA004F1AE3 /* OXViewController.h */ = {isa = PBXFileReference; path = OXViewController.h; sourceTree = "<group>"; };
+		D76429A61508E7CA004F1AE3 /* OXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OXViewController.m; sourceTree = "<group>"; };
+		D76429A91508E7CB004F1AE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OXViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D76429891508E7CA004F1AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76429911508E7CA004F1AE3 /* UIKit.framework in Frameworks */,
+				D76429931508E7CA004F1AE3 /* Foundation.framework in Frameworks */,
+				D76429951508E7CA004F1AE3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D76429811508E7CA004F1AE3 = {
+			isa = PBXGroup;
+			children = (
+				D76429961508E7CA004F1AE3 /* OX */,
+				D764298F1508E7CA004F1AE3 /* Frameworks */,
+				D764298D1508E7CA004F1AE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D764298D1508E7CA004F1AE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D764298C1508E7CA004F1AE3 /* OX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D764298F1508E7CA004F1AE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D76429901508E7CA004F1AE3 /* UIKit.framework */,
+				D76429921508E7CA004F1AE3 /* Foundation.framework */,
+				D76429941508E7CA004F1AE3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D76429961508E7CA004F1AE3 /* OX */ = {
+			isa = PBXGroup;
+			children = (
+				D764299F1508E7CA004F1AE3 /* OXAppDelegate.h */,
+				D76429A01508E7CA004F1AE3 /* OXAppDelegate.m */,
+				D76429A21508E7CA004F1AE3 /* MainWindow.xib */,
+				D76429A51508E7CA004F1AE3 /* OXViewController.h */,
+				D76429A61508E7CA004F1AE3 /* OXViewController.m */,
+				D76429A81508E7CB004F1AE3 /* OXViewController.xib */,
+				D76429971508E7CA004F1AE3 /* Supporting Files */,
+			);
+			path = OX;
+			sourceTree = "<group>";
+		};
+		D76429971508E7CA004F1AE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D76429981508E7CA004F1AE3 /* OX-Info.plist */,
+				D76429991508E7CA004F1AE3 /* InfoPlist.strings */,
+				D764299C1508E7CA004F1AE3 /* main.m */,
+				D764299E1508E7CA004F1AE3 /* OX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D764298B1508E7CA004F1AE3 /* OX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D76429AD1508E7CB004F1AE3 /* Build configuration list for PBXNativeTarget "OX" */;
+			buildPhases = (
+				D76429881508E7CA004F1AE3 /* Sources */,
+				D76429891508E7CA004F1AE3 /* Frameworks */,
+				D764298A1508E7CA004F1AE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OX;
+			productName = OX;
+			productReference = D764298C1508E7CA004F1AE3 /* OX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D76429831508E7CA004F1AE3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D76429861508E7CA004F1AE3 /* Build configuration list for PBXProject "OX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D76429811508E7CA004F1AE3;
+			productRefGroup = D764298D1508E7CA004F1AE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D764298B1508E7CA004F1AE3 /* OX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D764298A1508E7CA004F1AE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D764299B1508E7CA004F1AE3 /* InfoPlist.strings in Resources */,
+				D76429A41508E7CA004F1AE3 /* MainWindow.xib in Resources */,
+				D76429AA1508E7CB004F1AE3 /* OXViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D76429881508E7CA004F1AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D764299D1508E7CA004F1AE3 /* main.m in Sources */,
+				D76429A11508E7CA004F1AE3 /* OXAppDelegate.m in Sources */,
+				D76429A71508E7CA004F1AE3 /* OXViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D76429991508E7CA004F1AE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D764299A1508E7CA004F1AE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D76429A21508E7CA004F1AE3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D76429A31508E7CA004F1AE3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D76429A81508E7CB004F1AE3 /* OXViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D76429A91508E7CB004F1AE3 /* en */,
+			);
+			name = OXViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D76429AB1508E7CB004F1AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D76429AC1508E7CB004F1AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D76429AE1508E7CB004F1AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OX/OX-Prefix.pch";
+				INFOPLIST_FILE = "OX/OX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D76429AF1508E7CB004F1AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OX/OX-Prefix.pch";
+				INFOPLIST_FILE = "OX/OX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D76429861508E7CA004F1AE3 /* Build configuration list for PBXProject "OX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D76429AB1508E7CB004F1AE3 /* Debug */,
+				D76429AC1508E7CB004F1AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D76429AD1508E7CB004F1AE3 /* Build configuration list for PBXNativeTarget "OX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D76429AE1508E7CB004F1AE3 /* Debug */,
+				D76429AF1508E7CB004F1AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D76429831508E7CA004F1AE3 /* Project object */;
+}
