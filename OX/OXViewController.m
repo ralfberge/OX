@@ -26,19 +26,28 @@
 
 - (void)viewDidLoad
 {
- // Set some coordinates for our position (Buckingham Palace!)
- CLLocationCoordinate2D location;
- location.latitude = (double) 51.501468;
- location.longitude = (double) -0.141596;
- 
- // Add the annotation to our map view
- MapViewAnnotation *newAnnotation = [[MapViewAnnotation alloc] initWithTitle:@"Buckingham Palace" andCoordinate:location];
- [self.mapView addAnnotation:newAnnotation];
- [newAnnotation release]; 
+    [super viewDidLoad];
     
-
+    [mapView setMapType:MKMapTypeStandard];
+    [mapView setZoomEnabled:YES];
+    [mapView setScrollEnabled:YES];
+    MKCoordinateRegion region = { {0.0, 0.0 }, { 0.0, 0.0 } }; 
+    region.center.latitude = 51.538546;
+    region.center.longitude = 7.416844;
+    region.span.longitudeDelta = 0.10f;
+    region.span.latitudeDelta = 0.10f;
+    [mapView setRegion:region animated:YES]; 
+    
+    
+    CLLocationCoordinate2D location;
+	location.latitude = (double) 51.538546;
+	location.longitude = (double) 7.416844;
+    
+    MapViewAnnotation *newAnnotation = [[MapViewAnnotation alloc] initWithTitle:@"Buckingham Palace" andCoordinate:location];
+	[self.mapView addAnnotation:newAnnotation];
     
 }
+
 
 
 - (void)mapView:(MKMapView *)mv didAddAnnotationViews:(NSArray *)views
