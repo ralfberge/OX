@@ -43,7 +43,9 @@
 	location.latitude = (double) 51.538546;
 	location.longitude = (double) 7.416844;
     
-    MapViewAnnotation *newAnnotation = [[MapViewAnnotation alloc] initWithTitle:@"Buckingham Palace" andCoordinate:location];
+    MapViewAnnotation *newAnnotation = [[MapViewAnnotation alloc] initWithTitle:@"Buckingham Palace" andsubtitle: @"hier wohnt die Queen" andCoordinate:location];
+
+    
 	[self.mapView addAnnotation:newAnnotation];
     
 }

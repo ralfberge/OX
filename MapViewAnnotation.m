@@ -10,11 +10,12 @@
 
 @implementation MapViewAnnotation
 
-@synthesize title, coordinate;
+@synthesize title, subtitle, coordinate;
 
-- (id)initWithTitle:(NSString *)ttl andCoordinate:(CLLocationCoordinate2D)c2d {
+- (id)initWithTitle:(NSString *)ttl andsubtitle:(NSString *)stl andCoordinate:(CLLocationCoordinate2D)c2d {
     
 	title = ttl;
+    subtitle = stl;
 	coordinate = c2d;
 	return self;
 }
